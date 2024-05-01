@@ -1,0 +1,23 @@
+{
+    "name": "power-api",
+    "version": "1.0.0",
+    "author": {
+        "name": "Nathan Swanson"
+    },
+    "exports": "./scripts/index.js",
+    "types": "./scripts/index.d.ts",
+    "dependencies": {
+        "@minecraft/server": "^1.12.0-beta.1.21.0-preview.23",
+        "@minecraft/server-ui": "^1.2.0-beta.1.21.0-preview.23",
+        "@minecraft/vanilla-data": "^1.20.80"
+    },
+    "devDependencies": {
+        "eslint-plugin-minecraft-linting": "^1.2.2",
+        "prettier": "^3.2.5",
+        "typescript": "^5.4.5"
+    },
+    "scripts": {
+        "typescript": "tsc",
+        "build": "tsc"
+    }
+}
